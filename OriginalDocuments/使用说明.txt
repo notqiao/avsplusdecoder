@@ -1,0 +1,14 @@
+xavs_decoder.exe 第一个参数为待解码文件，第二个参数为工作模式，codec.avs 
+当mode = 0的时候只解码不显示，可以测试解码器性能，
+可以参考test_xavs_decodee_mode0.bat文件
+当mode = 1的时候解码并显示，可以查看解码器的解码效果，后面4个参数为显示的屏幕的左上角坐标及宽高如(0 0 960 540)。
+可以参考test_xavs_decodee_mode1.bat文件
+可以根据实际情况修改test_xavs_decodee_mode0.bat，test_xavs_decodee_mode1.bat的参数，进行测试。
+
+AVSPlusPlayer.exe为MFC播放器demo,该程序只能播放skg格式文件，skg文件格式为私有文件格式，可以最下面以排按钮的倒数第二个按钮将AVS+基本流转换成skg文件，然后播放。该转码过程不解码只分帧，所以转换会很快。
+该播放器，可以对skg格式文件进行快正放,慢正放，快倒放，慢倒放，帧进，帧退，抓图，区域放大，三个子区域显示，局部导航显示等操作
+
+新增功能支持解析文件方式播放TS流。
+另外修改了一个极低概率的bug。
+
+对于通用插件的支持请参看Filters的使用说明
