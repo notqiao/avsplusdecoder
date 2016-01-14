@@ -1,14 +1,14 @@
-# avsplusdecoder
+﻿# avsplusdecoder
 An unoffcial AVS+(Advanced Video Standard Plus) Decoder
 
-Notice:This is the decoder made by others.Please contact the author by Email(395579940@qq.com) or chat online with QQ(395579940) for any questions and technical support in both Chinese or English.
+Notice:This is the decoder made by others.Please contact the author by Email(395579940@qq.com) or chat online with QQ(395579940) for any questions and technical support in both Chinese or English.This is not the open source yet,but free to use.
 
 If you want to get more information for this standard,please get the view on the offcial website(www.avs.org.cn)
 The offcial website contains many documents of this standard in Chinese & English.
 For the specification of AVS+,you should pay to the offcial workgroup,and we will not provide it.
 
 Without the permission of the developer of this decoder,I upload it just for more people to know this things.
-I would not update immediately,please follow the develors's CSDN page for latest version.(http://download.csdn.net/user/chql1985)
+I would not update immediately,please follow the developer's CSDN page for latest version.(http://download.csdn.net/user/chql1985)
 
 AVS+ is a project for building Chinese Video & Audio's Encode & Decode standard in Broadcasting.
 However,there are many hardware for encoding & decoding,but few software for personal usage.
@@ -24,7 +24,7 @@ You could run it in x86 or x64 mode with command.
 The author says the decoder could decode 10Mbps 1080P with single core & thread in 50ms on I7 4770.
 Here are some resource to show which the decoder works.
 
-XAVSPlusPlayer.exe is a demo to play the private format SKG.In order to play SKG files,first you should extract the ES files from stream which include the AVS+ video stream.Then select"转换SKG" to convert ES file into SKG file.Finally,push"浏览..." and select the SKG file you have just generated.Now you could play the file.There is also a simple way,push "选择TS流文件" and select the stream file which include the AVS+ video stream,and you will also see the video.But the simple way would not support you drafting the time bar.
+XAVSPlusPlayer.exe is a demo to play the private format SKG.In order to play SKG files,first you should extract the ES files from stream which include the AVS+ video stream.Then select"转换SKG" to convert ES file into SKG file.Finally,push"浏览..." and select the SKG file you have just generated.Now you could play the file.There is also a simple way,push "选择TS流文件" and select the TransportStream file which include the AVS+ video stream,and you will also see the video.But the simple way would not allow you drafting the time bar.
 
 xavs_decoder.exe and xavs_decoder64.exe is the core of decoding in Windows enviroment.
 
